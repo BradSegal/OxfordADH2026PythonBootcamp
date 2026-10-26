@@ -1,0 +1,31 @@
+[project]
+name = "adh-python"
+version = "2026.1.0"
+description = "Python from scratch for the Oxford Applied Digital Health MSc (2026 cohort)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE-content.md"]
+authors = [{ name = "Bradley Segal", email = "bradley.segal@eng.ox.ac.uk" }]
+# Runtime dependencies are packages Google Colab already ships, so installing the
+# course helpers never replaces anything in a student's runtime.
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "pillow>=10",
+]
+
+[project.optional-dependencies]
+# Only the MedVision lab needs these; Colab GPU runtimes already have them.
+vision = [
+    "torch>=2.2",
+    "transformers>=4.56",
+    "accelerate>=0.30",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/adh_python"]

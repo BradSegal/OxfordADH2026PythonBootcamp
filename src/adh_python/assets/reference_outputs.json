@@ -1,0 +1,209 @@
+{
+  "outputs": {
+    "normal": {
+      "describe": {
+        "prompt": "Describe this chest X-ray.",
+        "text": "This is a chest X-ray image. The heart size appears normal. The lungs are clear, with no obvious consolidation, effusions, or pneumothorax. The mediastinum and bony structures are unremarkable. The image is labeled \"Dx\" and \"Sin\", likely indicating the date and side of the image.",
+        "date": "2026-10-25"
+      },
+      "focused": {
+        "prompt": "Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "Based on the chest X-ray provided, there are no obvious major abnormalities in the lungs, heart, or pleura. The heart size appears within normal limits, and the lungs are generally clear without any large consolidations, effusions, or pneumothorax. The mediastinum and bony structures are also unremarkable.\n\nTherefore, based on this single image, there is no main abnormality identified.",
+        "date": "2026-10-25"
+      },
+      "persona": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "The main abnormality is a **small opacity in the left lower lobe**. It is difficult to definitively characterize this opacity on a single view, but it could represent pneumonia, atelectasis, or a small nodule.\n\nOther findings:\n\n*   The heart size is normal.\n*   The mediastinum is unremarkable.\n*   The lungs are otherwise clear.\n*   There is no pleural effusion or pneumothorax.\n\nFurther imaging (e.g., lateral view, CT scan) may be needed for better characterization.",
+        "date": "2026-10-25"
+      },
+      "structured": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one? Reply in three short sections: Findings, Impression, and Confidence (low, medium or high).",
+        "text": "FINDINGS: The lungs are clear. The heart size is normal. The mediastinal and hilar contours are normal. There is no pleural effusion or pneumothorax. IMPRESSION: Normal chest X-ray. CONFIDENCE: High.",
+        "date": "2026-10-25"
+      },
+      "pneumothorax": {
+        "prompt": "Is there a pneumothorax on this chest X-ray?",
+        "text": "Based on the provided chest X-ray image, there is no obvious pneumothorax. The lung fields appear relatively clear, and there is no visible pleural line or absence of lung markings in the affected area.\n\nHowever, a small pneumothorax can sometimes be difficult to detect, especially if it is not large or if the patient is supine. A definitive diagnosis would require a more detailed evaluation by a trained radiologist.",
+        "date": "2026-10-25"
+      },
+      "leading_mass": {
+        "prompt": "Describe the size and position of the mass in the left upper zone on this chest X-ray.",
+        "text": "Based on the provided chest X-ray image, there is a **mass-like opacity** in the **left upper zone**.\n\nHere's a description of its size and position:\n\n*   **Location:** It is located in the **upper lobe** of the left lung.\n*   **Size:** It appears as a **rounded or slightly irregular opacity** occupying a significant portion of the left upper zone. While precise measurement is difficult without clinical context and comparison to previous images, it seems to be **several centimeters in diameter**.\n\nIt's important to note that this is a visual interpretation based on a single image. A definitive diagnosis requires clinical correlation, potentially further imaging (like a CT scan), and consideration of the patient's history.",
+        "date": "2026-10-25"
+      },
+      "with_context": {
+        "prompt": "Clinical details: 21-year-old woman, left chest pain after a collision playing football\nFocus: the lungs, heart and pleura\nQuestion: What is the main abnormality, if there is one?\nDescribe only what you can see on the image, and say if you are unsure.",
+        "text": "The image shows a chest X-ray. The lungs appear clear, and the heart size is normal. There is no obvious pleural effusion or pneumothorax. The mediastinum is unremarkable. There is no fracture visible on this image.",
+        "date": "2026-10-25"
+      }
+    },
+    "normal_2": {
+      "describe": {
+        "prompt": "Describe this chest X-ray.",
+        "text": "This is a standard chest X-ray image.\n\nHere's a description of the key features:\n\n*   **Heart Size:** The heart size appears within normal limits.\n*   **Lung Fields:** The lung fields are clear, with no obvious consolidation, effusions, or masses. The costophrenic angles are sharp.\n*   **Bones:** The ribs, clavicles, and spine appear intact.\n*   **Mediastinum:** The mediastinum (the central area containing the heart, great vessels, and trachea) is unremarkable.\n*   **Overall:** The image shows a normal chest X-ray.\n\n**Disclaimer:** This is a description based on visual interpretation of the image. A definitive diagnosis requires clinical correlation and potentially additional imaging or tests.",
+        "date": "2026-10-25"
+      },
+      "focused": {
+        "prompt": "Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "Based on the chest X-ray provided, there are no obvious major abnormalities visible in the lungs, heart, or pleura. The heart size appears within normal limits, the mediastinum is unremarkable, and the lungs are clear without any focal consolidation, effusions, or pneumothorax. The ribs and soft tissues are also unremarkable.\n\nTherefore, the main abnormality is **normal**.",
+        "date": "2026-10-25"
+      },
+      "persona": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "The main abnormality is a **small left pleural effusion**.\n\nHere's a breakdown of why:\n\n*   **Pleural Effusion:** There is a blunting of the left costophrenic angle, which is a classic sign of fluid in the pleural space.\n*   **Small:** The effusion appears relatively small based on the image.\n*   **Left:** The effusion is localized to the left side.\n\nThe lungs appear clear, the heart size is normal, and there are no obvious signs of pneumonia or pneumothorax.",
+        "date": "2026-10-25"
+      },
+      "structured": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one? Reply in three short sections: Findings, Impression, and Confidence (low, medium or high).",
+        "text": "FINDINGS: The lungs are clear. The heart size is normal. The mediastinal and hilar contours are normal. There is no pleural effusion or pneumothorax. IMPRESSION: Normal chest X-ray. CONFIDENCE: High.",
+        "date": "2026-10-25"
+      },
+      "pneumothorax": {
+        "prompt": "Is there a pneumothorax on this chest X-ray?",
+        "text": "Based on the provided chest X-ray image, there is no obvious pneumothorax. The lung fields appear relatively clear, and there is no visible pleural line or absence of lung markings in the costophrenic angles.\n\nHowever, a definitive diagnosis requires a trained radiologist's interpretation, considering the patient's clinical history and comparing the image to previous studies if available.\n\nTherefore, while I cannot definitively rule out a small or subtle pneumothorax without further information or a formal radiologist's assessment, the image does not show any clear signs of one.",
+        "date": "2026-10-25"
+      },
+      "leading_mass": {
+        "prompt": "Describe the size and position of the mass in the left upper zone on this chest X-ray.",
+        "text": "Based on the provided chest X-ray image, there is a **mass** visible in the **left upper zone**.\n\n**Description:**\n\n*   **Location:** The mass is located in the upper portion of the left lung field.\n*   **Size:** The mass appears to be roughly **circular or oval** in shape. While precise measurement is difficult without a scale, it seems to occupy a significant portion of the upper lobe.\n*   **Position:** It is situated in the **upper lobe** of the left lung.\n\n**Important Note:** This is a visual description based on the image. A definitive diagnosis requires clinical correlation, potentially further imaging (like a CT scan), and possibly a biopsy. This description should not be considered a medical diagnosis.",
+        "date": "2026-10-25"
+      },
+      "with_context": {
+        "prompt": "Clinical details: Adult, no clinical details recorded\nFocus: the lungs, heart and pleura\nQuestion: What is the main abnormality, if there is one?\nDescribe only what you can see on the image, and say if you are unsure.",
+        "text": "The image shows a chest X-ray. The lungs appear clear. The heart size is within normal limits. The mediastinum is unremarkable. There are no obvious pleural effusions or pneumothorax. The bony structures are intact.\n\nThere is no main abnormality visible on this image.",
+        "date": "2026-10-25"
+      }
+    },
+    "lobar_pneumonia": {
+      "describe": {
+        "prompt": "Describe this chest X-ray.",
+        "text": "This chest X-ray shows a significant opacity in the right lower lung field. This could represent pneumonia, consolidation, or other infiltrative processes. The left lung appears relatively clear. The heart size is normal, and the mediastinum is unremarkable. There is no obvious pleural effusion.\n\n**Disclaimer:** This is a description based on the image provided and does not constitute a medical diagnosis. A definitive diagnosis requires clinical correlation and potentially further imaging or laboratory tests.",
+        "date": "2026-10-25"
+      },
+      "focused": {
+        "prompt": "Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "Based on the chest X-ray provided, the main abnormality appears to be **opacity in the right lower lung field**. This could indicate pneumonia, consolidation, or other infiltrative processes.\n\nHere's a breakdown:\n\n*   **Right Lower Lung:** There is a noticeable area of increased density or whiteness compared to the surrounding lung tissue. This is the primary area of concern.\n*   **Heart:** The heart size appears within normal limits.\n*   **Pleura:** There is no obvious pleural effusion (fluid around the lung) or pneumothorax (air in the pleural space).\n*   **Bones:** The ribs and clavicles appear intact.\n\nIt's important to note that this is a preliminary interpretation based on a single image. A definitive diagnosis would require clinical correlation, potentially additional imaging, and possibly laboratory tests.",
+        "date": "2026-10-25"
+      },
+      "persona": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "The main abnormality is a consolidation in the right lower lung field. This appears as an area of increased opacity, likely representing pneumonia.\n\nOther findings include:\n\n*   The heart size is normal.\n*   The mediastinum is unremarkable.\n*   The left lung is clear.\n*   There is no pleural effusion or pneumothorax.\n\nThe consolidation in the right lower lung field is the most significant finding.",
+        "date": "2026-10-25"
+      },
+      "structured": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one? Reply in three short sections: Findings, Impression, and Confidence (low, medium or high).",
+        "text": "FINDINGS: There is an opacity in the right lower lung field, concerning for consolidation. The left lung is clear. The heart size is normal. There is no pleural effusion or pneumothorax.\n\nIMPRESSION: Right lower lobe consolidation.\n\nCONFIDENCE: High.",
+        "date": "2026-10-25"
+      },
+      "pneumothorax": {
+        "prompt": "Is there a pneumothorax on this chest X-ray?",
+        "text": "Based on the provided chest X-ray image, there is no obvious pneumothorax. The lung fields appear relatively clear, and there is no visible pleural line or absence of lung markings in the area where a pneumothorax would typically be located (e.g., the apex of the lung).\n\nHowever, a small pneumothorax can sometimes be difficult to detect, especially if it is not large or if the patient is rotated. A definitive diagnosis would require a more detailed evaluation, potentially including a lateral decubitus view or a CT scan.\n\nTherefore, while I cannot definitively rule out a small pneumothorax, the image does not show clear evidence of one.",
+        "date": "2026-10-25"
+      },
+      "leading_mass": {
+        "prompt": "Describe the size and position of the mass in the left upper zone on this chest X-ray.",
+        "text": "Based on the provided chest X-ray image, there is a mass-like opacity in the left upper zone.\n\n**Size:** The mass appears to be approximately 3-4 cm in diameter, although precise measurement is difficult without a scale.\n\n**Position:** The mass is located in the left upper lung field, specifically in the region of the apex.\n\n**Appearance:** The mass is somewhat ill-defined and has a slightly different density compared to the surrounding lung tissue.\n\n**Important Note:** This is a visual interpretation based on a single image. A definitive diagnosis requires clinical correlation, potentially further imaging (like CT scan), and possibly a biopsy.",
+        "date": "2026-10-25"
+      },
+      "with_context": {
+        "prompt": "Clinical details: 67-year-old man\nFocus: the lungs, heart and pleura\nQuestion: What is the main abnormality, if there is one?\nDescribe only what you can see on the image, and say if you are unsure.",
+        "text": "The main abnormality is consolidation in the right lower lung field.",
+        "date": "2026-10-25"
+      }
+    },
+    "multifocal_consolidation": {
+      "describe": {
+        "prompt": "Describe this chest X-ray.",
+        "text": "This chest X-ray shows significant abnormalities in both lungs, particularly in the right lung.\n\nKey findings:\n\n*   **Bilateral Pulmonary Opacities:** There are widespread areas of increased density (whiteness) in both lungs, suggesting consolidation or infiltrates. These are more prominent in the right upper and mid lung zones.\n*   **Right Lung Predominance:** The opacities appear more extensive and confluent in the right lung compared to the left.\n*   **Cardiomegaly:** The heart size appears enlarged (cardiomegaly).\n*   **No Obvious Pleural Effusion:** There is no clear evidence of fluid accumulation in the pleural spaces surrounding the lungs.\n*   **Normal Mediastinal Structures:** The mediastinum (the space between the lungs containing the heart, great vessels, trachea, etc.) appears relatively normal in width.\n\n**Possible Interpretations:**\n\nThe pattern of bilateral pulmonary opacities, especially with right lung predominance, could be consistent with several conditions, including:\n\n*   **Pneumonia:** Particularly atypical pneumonia or severe bacterial pneumonia.\n*   **Pulmonary Edema:** Fluid accumulation in the lungs, often associated with heart failure or other cardiac issues.\n*   **Diffuse Interstitial Lung Disease:** A group of disorders affecting the lung tissue itself.\n*   **Pulmonary Edema:** Fluid accumulation in the lungs, often associated with heart failure or other cardiac issues.\n*   **Other infiltrative processes:** Such as hemorrhage, certain infections (e.g., viral, fungal), or inflammatory conditions.\n\n**Clinical Correlation:**\n\nA definitive diagnosis requires correlation with the patient's clinical history, symptoms, physical examination findings, and potentially other investigations like blood tests, sputum cultures, or CT scans.\n\n**Disclaimer:** This is an interpretation of a medical image. It is not a diagnosis. A qualified healthcare professional should interpret the image in the context of the patient's overall clinical",
+        "date": "2026-10-25"
+      },
+      "focused": {
+        "prompt": "Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "Based on the chest X-ray, the main abnormality appears to be **bilateral pulmonary infiltrates**, predominantly in the right upper lobe. These infiltrates appear as areas of increased opacity or haziness within the lung fields, particularly noticeable in the right lung.\n\nThe heart size seems slightly enlarged (cardiomegaly), but this could be due to various factors, including pulmonary hypertension secondary to the lung disease. The pleura appears clear.",
+        "date": "2026-10-25"
+      },
+      "persona": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "The main abnormality is **bilateral pulmonary opacities**, predominantly in the right upper lobe, but also present in the left lung. These opacities appear as areas of increased density, suggesting consolidation or inflammation. The pattern is somewhat patchy and diffuse.\n\nOther findings include:\n\n*   **Cardiomegaly:** The heart appears enlarged.\n*   **Pleural effusion:** There may be a small amount of fluid in the pleural space, particularly on the right side.\n*   **Normal mediastinal contours.**\n*   **No pneumothorax.**\n\nThe overall picture is concerning for an infectious process, such as pneumonia, or potentially other inflammatory or infiltrative lung diseases. Further investigation would be required to determine the specific cause.",
+        "date": "2026-10-25"
+      },
+      "structured": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one? Reply in three short sections: Findings, Impression, and Confidence (low, medium or high).",
+        "text": "FINDINGS:\nThere are bilateral patchy opacities, predominantly in the right upper and mid lung zones, with some involvement of the left upper lobe. The heart size is borderline enlarged. The mediastinal contours are unremarkable. There is no pleural effusion or pneumothorax.\n\nIMPRESSION:\nBilateral patchy opacities, suggestive of pneumonia or other infectious process.\n\nCONFIDENCE:\nHigh.",
+        "date": "2026-10-25"
+      },
+      "pneumothorax": {
+        "prompt": "Is there a pneumothorax on this chest X-ray?",
+        "text": "Based on the provided chest X-ray image, there is no obvious pneumothorax. The lung fields appear relatively clear, and there is no visible pleural line or absence of lung markings in the affected areas.\n\nHowever, a small pneumothorax can sometimes be difficult to detect, especially if it is not large or if the patient is rotated. A definitive diagnosis would require a more detailed evaluation by a radiologist.",
+        "date": "2026-10-25"
+      },
+      "leading_mass": {
+        "prompt": "Describe the size and position of the mass in the left upper zone on this chest X-ray.",
+        "text": "Based on the provided chest X-ray image, there appears to be an opacity or consolidation in the left upper zone. It is difficult to definitively characterize this as a \"mass\" without more information or comparison to previous imaging. However, it does appear as an area of increased density compared to the surrounding lung tissue.\n\nTo describe its size and position:\n\n*   **Position:** The opacity is located in the left upper lung zone, specifically in the region corresponding to the apex of the left lung.\n*   **Size:** It is difficult to precisely measure the size from the image alone, but it appears to occupy a significant portion of the left upper lobe.\n\nIt is important to note that this is a preliminary observation based on a single image. A definitive diagnosis would require clinical correlation, potentially further imaging (like a CT scan), and consideration of the patient's history and symptoms.",
+        "date": "2026-10-25"
+      },
+      "with_context": {
+        "prompt": "Clinical details: 88-year-old man, a week of fever, fatigue and mild cough; influenza A and Haemophilus influenzae detected\nFocus: the lungs, heart and pleura\nQuestion: What is the main abnormality, if there is one?\nDescribe only what you can see on the image, and say if you are unsure.",
+        "text": "The main abnormality is bilateral pulmonary infiltrates, predominantly in the right upper lobe. The infiltrates appear as patchy opacities. The heart size is mildly enlarged. There is no obvious pleural effusion.",
+        "date": "2026-10-25"
+      }
+    },
+    "heart_failure": {
+      "describe": {
+        "prompt": "Describe this chest X-ray.",
+        "text": "This chest X-ray shows several findings:\n\n*   **Cardiomegaly:** The heart appears enlarged.\n*   **Pulmonary edema:** There is increased opacity in the lungs, particularly in the lower lung fields, suggesting fluid accumulation. This is often described as a \"bat wing\" appearance due to the perihilar distribution.\n*   **Interstitial markings:** There is increased prominence of the interstitial markings, which can be seen in conditions like pulmonary edema or interstitial lung disease.\n*   **Possible pleural effusion:** There is a blunting of the costophrenic angles on the right, which could indicate a small pleural effusion.\n*   **Post-sternotomy:** The presence of sternal wires indicates previous cardiac surgery.\n\nOverall, the findings are consistent with congestive heart failure leading to pulmonary edema.\n\n**Disclaimer:** This is a description based on the image provided and should not be considered a definitive diagnosis. A qualified healthcare professional should interpret the X-ray in the context of the patient's clinical history and other findings.",
+        "date": "2026-10-25"
+      },
+      "focused": {
+        "prompt": "Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "Based on the chest X-ray provided, the main abnormality appears to be **cardiomegaly** (enlarged heart) and **pulmonary edema** (fluid in the lungs).\n\nHere's a breakdown:\n\n*   **Cardiomegaly:** The heart silhouette appears enlarged, particularly the left ventricle.\n*   **Pulmonary Edema:** There is increased opacity in the lung fields, especially in the lower zones, suggesting fluid accumulation. The interstitial markings are also prominent, which can be a sign of pulmonary edema.\n*   **Other findings:** There might be some degree of pleural effusion (fluid around the lungs), particularly on the left side, contributing to the increased opacity. The patient also has sternal wires indicating prior cardiac surgery.\n\nTherefore, the primary findings are cardiomegaly and pulmonary edema.",
+        "date": "2026-10-25"
+      },
+      "persona": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one?",
+        "text": "The main abnormality appears to be **cardiomegaly** (enlarged heart) and **pulmonary edema** (fluid in the lungs).\n\nHere's a breakdown:\n\n*   **Cardiomegaly:** The heart silhouette appears enlarged, particularly the left ventricle.\n*   **Pulmonary Edema:** There is increased opacity in the lung fields, particularly in the lower zones, consistent with fluid accumulation. The interstitial markings are also prominent, suggesting fluid in the lung tissue.\n*   **Other findings:** There is also evidence of **interstitial thickening** and possibly some **pleural effusions** (fluid along the pleural surfaces, especially on the left). The patient has also undergone **sternotomy** (surgical incision through the breastbone), indicated by the sternal wires.\n\nThe combination of cardiomegaly and pulmonary edema suggests congestive heart failure. The interstitial thickening and possible pleural effusions could be related to this condition.\n\n**Disclaimer:** This is an interpretation based on the provided image. A definitive diagnosis requires clinical correlation and potentially further investigations.",
+        "date": "2026-10-25"
+      },
+      "structured": {
+        "prompt": "You are a consultant radiologist reporting for a ward team. Look at the lungs, heart and pleura on this chest X-ray. What is the main abnormality, if there is one? Reply in three short sections: Findings, Impression, and Confidence (low, medium or high).",
+        "text": "FINDINGS:\nThere is cardiomegaly. There is pulmonary edema with bilateral interstitial thickening. There is a small right pleural effusion. There is a small left pleural effusion. There is a right lower lobe atelectasis. There are sternotomy wires.\n\nIMPRESSION:\nPulmonary edema with bilateral interstitial thickening. Small bilateral pleural effusions. Right lower lobe atelectasis. Cardiomegaly.\n\nCONFIDENCE:\nHigh",
+        "date": "2026-10-25"
+      },
+      "pneumothorax": {
+        "prompt": "Is there a pneumothorax on this chest X-ray?",
+        "text": "Based on the provided chest X-ray image, there is no obvious pneumothorax. The lung fields appear relatively clear, and there is no visible pleural line or absence of lung markings in the area where a pneumothorax would typically be located (e.g., the apex).\n\nHowever, a small pneumothorax can sometimes be difficult to detect, especially if it is not large or if the patient is rotated. A definitive diagnosis would require a more detailed evaluation, potentially including a lateral decubitus view or a chest CT scan.\n\nTherefore, while I cannot definitively rule out a small pneumothorax, the image does not show clear evidence of one.",
+        "date": "2026-10-25"
+      },
+      "leading_mass": {
+        "prompt": "Describe the size and position of the mass in the left upper zone on this chest X-ray.",
+        "text": "Based on the provided chest X-ray image, there is a **mass-like opacity** in the **left upper zone**.\n\nHere's a description of its size and position:\n\n*   **Position:** It appears to be located in the **upper lobe** of the left lung.\n*   **Size:** It is difficult to precisely measure the size from the image alone, but it appears to be a **relatively dense opacity** compared to the surrounding lung tissue. It occupies a significant portion of the left upper zone.\n\nIt's important to note that this is a visual interpretation, and a definitive diagnosis would require clinical correlation and potentially further imaging (like a CT scan). The mass could represent various conditions, including pneumonia, tumor, or other infiltrative processes.",
+        "date": "2026-10-25"
+      },
+      "with_context": {
+        "prompt": "Clinical details: 83-year-old man with previous coronary artery bypass grafting, presenting with laboured breathing\nFocus: the lungs, heart and pleura\nQuestion: What is the main abnormality, if there is one?\nDescribe only what you can see on the image, and say if you are unsure.",
+        "text": "The main abnormality is cardiomegaly (enlarged heart). The heart appears significantly enlarged, occupying a large portion of the chest cavity. There is also evidence of pulmonary edema, indicated by the increased interstitial markings and haziness in the lungs. There is also a small pleural effusion on the left side.",
+        "date": "2026-10-25"
+      }
+    }
+  },
+  "provenance": {
+    "label": "SAVED REPLY, not a live run: recorded on 25 October 2026 with a compressed (4-bit GGUF) version of MedGemma 1.5 4B on a CPU. A live run on a GPU uses the full model, so its wording will differ.",
+    "model": "MedGemma 1.5 4B, instruction-tuned (Google; Unsloth GGUF build)",
+    "model_repository": "unsloth/medgemma-1.5-4b-it-GGUF@3855f948626b7ae42bccd082757f15078c53e758",
+    "model_files": {
+      "medgemma-1.5-4b-it-Q4_K_M.gguf": "b31becdf4f39561800505514cce67681604fe449d04dd35c8c92fd7848c6d7bd",
+      "mmproj-F16.gguf": "f45f0f750587494e8f976d952cb396dfaa3158662120e2f9c224fc11f3882c83"
+    },
+    "quantisation": "Q4_K_M (about 4.5 bits per weight); vision projector in F16",
+    "runtime": "llama.cpp b11887, llama-mtmd-cli from the prebuilt llama-b11887-bin-ubuntu-x64.tar.gz release, CPU only, 8 threads",
+    "date": "2026-10-25",
+    "generation": {
+      "decoding": "greedy (temperature 0)",
+      "max_new_tokens": 400,
+      "seed": 0,
+      "context_tokens": 4096
+    },
+    "conversation": "one user turn: the image, then the prompt; no system prompt",
+    "script": "recorded with the course development scripts (not included in the student repository)"
+  }
+}
